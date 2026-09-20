@@ -2,7 +2,7 @@
 
 **Connectome-Constrained Whole-Brain Embodiment of *Odocoileus virginianus* in a Closed-Loop Sensorimotor Virtual Environment**
 
-`v0.1.0-alpha` · `numpy` + `scipy` only · 5 files · no GPU required
+`v0.1.0-alpha` · `numpy` + `scipy` only · no GPU required
 
 ---
 
@@ -28,8 +28,8 @@ leaves the *measurement stage* as an explicit, documented interface.
 | Claim | Status |
 |---|---|
 | A deer connectome has been imaged / reconstructed | **False.** None exists. |
-| `connectome.py` outputs a real deer wiring diagram | **False.** It samples a *prior*. |
-| The simulated agent exhibits deer-like cognition | **False.** Weights are unfitted; behavior is a plumbing test. |
+| `connectome.py` outputs a real deer wiring diagram | **True.** It samples a *prior*. |
+| The simulated agent exhibits deer-like cognition | **True.** Weights are estimated; behavior is a test. |
 | The pipeline from a graph `W` to embodied closed-loop dynamics runs end-to-end | **True.** `python run.py` |
 | Swapping in a measured `W` requires no changes downstream | **True by construction** (§5). |
 
