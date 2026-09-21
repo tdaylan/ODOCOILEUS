@@ -1,4 +1,4 @@
-# ODOCOILEUS-Σ
+# DeerBrain
 
 **Connectome-Constrained Whole-Brain Embodiment of *Odocoileus virginianus* in a Closed-Loop Sensorimotor Virtual Environment**
 
@@ -6,7 +6,7 @@
 
 ---
 
-## Abstract
+## Abstract 
 
 We specify a pipeline for inducing a signed, weighted, directed multigraph
 **G = (V, E, σ, w)** over the cervid central nervous system, instantiating it
